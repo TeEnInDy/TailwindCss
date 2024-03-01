@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="w-full h-[100vh] bg-black flex justify-center items-center"> 
+    <div class="w-[40rem] h-[20rem] rounded-lg  bg-white flex ">
+      <div class="border border-black w-full">
+        <img class="w-full h-full object-cover" src="./images/image-product-desktop.jpg">
+      </div>  
+      <div class="border border-black w-full p-5">
+        <p class="font-bold text-[1.5rem]">Perfume</p>
+        <p class="font-bold text-[1.5rem]">Perfume Gabrielle Essence</p>
+        <p></p>
+        <div class="flex items-center gap-10">
+          <p class="font-bold text-[1.5rem] text-green-600">$145.45</p>
+          <p class="line-through font-bold text-[1.3rem] text-red-600">$199</p>
+        </div>
+        <div>
+          <button class="w-full bg-green-800 text-white mt-2 h-12 rounded-lg">
+            add to cart
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
